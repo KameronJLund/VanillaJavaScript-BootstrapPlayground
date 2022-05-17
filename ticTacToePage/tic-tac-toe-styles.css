@@ -1,0 +1,129 @@
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#navbar-nav {
+    width: 30px;
+}
+
+#game-title {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#reset-button {
+    margin-top: 20px;
+}
+
+#main-view {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+div#playSpace {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+div#playerOneColumn {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#playerOneColumn .form-control {
+    
+    margin-left: 20px;
+    width: 15vw;
+    height: 2.5vw;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2REM;
+}
+
+div#playerOne {
+    flex-grow: 1;
+    width: 90%;
+}
+
+#p1-score-count {
+    margin: 15px;
+}
+
+div#playerTwoColumn {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#playerTwoColumn .form-control {
+    margin-left: 20px;
+    width: 15vw;
+    height: 2.5vw;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2REM;
+}
+
+div#playerTwo {
+    flex-grow: 1;
+    width: 90%;
+}
+
+#p2-score-count {
+    margin: 15px;
+}
+
+div#game {
+    display: grid;
+
+    gap: 10px;
+    width: calc(100vh - 178px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+div.playerActive {
+    background-color: rgb(68,68,68);
+    border: 10px solid rgb(55,90,127);
+    margin: 0px 15px 0px 15px;
+    border-radius: 5%;
+}
+
+div.playerWaiting {
+    background-color: rgb(68,68,68);
+    border: 10px solid rgb(68,68,68);
+    margin: 0px 15px 0px 15px;
+    border-radius: 5%;
+}
+
+.game-button {
+    font-size: 5rem;
+}
+
+.marked-button {
+    color: green;
+}
+
+.game-button:hover {
+    color: rgb(55,90,127);
+}
+
+.marked-button:focus {
+    color: green;
+}
