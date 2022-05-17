@@ -1,6 +1,6 @@
 # Vanilla JavaScript/Bootstrap Playground
 
-*(Open home.html in Chrome to view project)*
+*(Open homePage/home.html in Chrome to view project)*
 
 ## **Objective**
 
