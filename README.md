@@ -35,7 +35,7 @@ Linked home.html to the anchor labelled home in the nav bar. Home screen still d
 
 **Reflection:** This step took the most planning. Size proportions of Player One box, Tic Tac Toe grid, and Player Two box went through over ten iterations before I felt satisfied with the layout. Overall, great for understanding flex boxes and how height / width is inherited.
 
-![Step Two Demo](resources/StepTwoDemo.png)
+![Step Two Demo](resources/StepTwoDemo.PNG)
 
 ## **Step Three: Tic Tac Toe Logic**
 Started by creating the tic-tac-toe.js file. First priority was setting each button up with an event listener set to "click". Once a click was initiated the button's inner text was changed to be an X.
@@ -56,7 +56,7 @@ Reset button was finally implemented to clear all button values and start with p
 
 **Reflection:** This was the most technical part of the project. It took quite a bit of manual testing to figure out the logic. This is where I first got in the habit of breaking my JavaScript functions into their most basic forms -- this made fixes 10x easier to implement.
 
-![Step Three Demo](resources/tic-tac-toe-preview.png)
+![Step Three Demo](resources/tic-tac-toe-preview.PNG)
 
 ## **Step Four: Creating Game Preview and Hover Logic**
 Started by separating the homePage into a 3 wide grid. Initial play was to have the first row dedicated to 3 separate card representing 3 different games (2 placeholders in this case). Rows 2 was set aside for a single game preview that would change based on which game card you hovered on.
